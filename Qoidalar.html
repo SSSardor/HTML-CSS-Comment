@@ -1,0 +1,223 @@
+<b></b> - BOLT- yozuvlarni boshqalardan ajratish uchun ishlatiladi.
+<i></i> - ITALIC- hariflarimizni o'ng tomonga og'itib yozishda yordam beradi.
+<p></p> - PARAGRAPH
+</br>- BREAK- qatorlarimizni malum bir qismini yangi qatordan boshlash uchun ishlatamiz va ozidan keyin keladigon har qanday yozuvna yangi qatorga olib otadi.
+<pre></pre> - PREVIOUS-
+</hr>- HORIZONTAL LINE - paragraphlarimizni chiziq orqali ajratish uchun ishlatiladi.
+<mark></mark> - yozuvlarimizni ustina sariq bilan boyashda ishlatiladi.
+<del></del> - yozuvlarimiz ustidan gorizontal tarzda chiziq chizib berishda foydalaniladi.
+<sup></sup> - SUPTITLE- ma'lum sonlarimiz yoki hariflarimizni darajasida korsatishda foydalanamiz.
+<sub></sub> - SUBTITLE- ma'lum sonlarimiz yoki hariflarimizni indexini (pastki qismida) korsatishda foydalanamiz.
+<center></center> - center tagi ichida yozilgan so'zlarimiz listimizni markazida joylashadi.
+<em></em> -  hariflarimizni o'ng tomonga og'itib yozishda yordam beradi.
+<blockquote><blockquote> - ushbu tagning ichida yzilgan gaplarimizni boshida joy tashlab beradi.
+<ins></ins> - INSEART- sozlarimizni tagiga underline qilishda foydalanamiz.
+<q></q> - ushbu tag bizga qo'shtirnoq ochishda yoradm beradi.
+<a href=""></a> - link yaratishda yordam beradi.
+target="_blank" - ushbu attribbute search barimizda alohida bar ochishda yordam beradi. 
+<img src=""/> - ushbu tagimiz brauzerimizga rasim joylashda yordam berda "img" o'zini o'zi yopuchi tag hisiblanadi "src" "img" ning qoshimcha qiymati hisobanadi.
+width=""- rasimlarimizni eniga gorizantal ozgartirishda yordam beradi.
+height=""- rasimlarimizni vertikal hajmini ozgartirishda yordam beradi.
+download - qiymati orqali rasimlarimiz yoki videolarimizni yuklashga yordam beradi - { a href="/picture.jpg" download> Download</a>} shu tarzda amalga oshiramiz.
+<ul type=""></ul> - shu tarzda unordered liastlarimizni typeni ozgartira olamiz.
+<ol type=""></ol> - shu tarzda ordered liastlarimizni typeni ozgartira olamiz.
+<div></div> - DIVISION - tagining vazifasi ma'lum bir taglar ya'ni ma'lumotlarni bita containerga oldi.
+<center></center> - ushbu tagdan textlarimizni listning markaziga olip kelib beradi va [center] ozida yozilgan qatorini toliq egallaydi.
+<span></span> - bu tagi faqatgina ichida yozilgan textni egallayda ortiqcha joy egallamaydi.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+font-size - ushbu attributeyimi orqali biz textlarimizni hajmini o'zgartira olamiz.
+font-family - ushbu tagimiz orqali biz textlarimizni turini ozgartiramiz.
+font-size:16rem; - root element va "rem" faqat "html" dan oladi.
+font-size:48em; - esa o'zidan oldingi otasudan oladi.
+font-style: normal; - bu holatda "defoldga teng boladi" agar : italic; ozgaradi bu "em" ga teng.
+font-stye: inherit; [meros olish] - ushbu styleda ozidan tepadagi otasidan oladi agar yoqbolsa undanham tepasidan oladi va [inherit] ni boshqa narsalarda ham
+                                    qollasak bo'ladi.
+color: [rgba-rad,green,blue- bular "0 dan 255 gacha qiymat oladi"]  [alpha-"shaffoflik degani"-bu 0 dan 1 gacha qiymat oladi].
+HEX (Hexadecimal-16 raqamlik)-123456789ABCDEF-shu holatda (16 raqamli qiymat debataladi) shu holatda 0=0ga - F=255 ga va biz [HEX] ni # bilan yozamiz
+HSL - [ HUE=rang - oladi "0" gradusdan 360 gacha"| SATURATION=to'yinganlilik - oladi 0% dan 100% gacha | LIGHTNESS=yorug'lik - oladi 0% dan 100% gacha ]
+<div></div> - ni vazifasi ozi yozilgan qaroeni butunlay egallaydi agar ushbu <div> mizga yana bir <div> qoshsak pastidan tushadi <div> ning [DISPLAY] degan
+              "PROPERTYSI" bor agar biz [DIV] ga - display; inline; -  bersak divlarimiz bir liniyaga tushadi agar biz "div"imizni "display" holati "block"
+              bo'lsa "width" ham "height" ham qabul qilmaydi.Agar biz "div" miz "width" va "height" qabul qilsin desak biz bu holatda [ display: inline-bock ]dan
+              foydalanamiz.
+
+<span></span> - ni vazifasi faqatgina oziga kerakli joyni oladi agar biz yana bir <span> ochsak yoniga tushadi [span] ni - inline - degan "property" si bor
+                ozini "default" holatida agar biz [span] ga - display block - bersak [span] nimiz ham div ni default holatiga o'xshab ozidan keyingi span ni
+                pastga tushirip yuboradi. 
+
+
+[ padding ] - ichki tomondan contentimiz bilan border orasidagi masofani  hajimni ozgartiradi.
+
+[ margin ] - borderdan tashqari tomondan hajmini ozgartiradi.
+[	[ visibility; hidden; ] - orqali biz yashirip qoya olamiz ammo joyi qoladi.
+[display:none] urniyam qomaydi.
+[ float] - qalqip turish degani - va "right" - "left" qilish orqali o'nga chapga qilib ozgartira olamiz 
+[%]-otasi qancha bolsa shunca foizca bolasini uzgartirish mumkin font-size:200%;
+[vw]-view width=korinish kenglik ekranga qarab text moslashadi 5vw ekranning mn:600px ning 5 foizi degani
+[vh]-view heigh=korinish balandlik ekrangga qarab text moslashadi
+background-image:url('rasm linki');orqa fonga rasm quyish
+background-repeat:none rasmni qayta qayta quymaslik
+[cover]-rasm butunlay egallash
+[contain]-rasmni uz holatida chiqarish
+[background-position:top;]=rasm yuqorini egallaydi
+[background-size:contain;] rasmni uz holida chiqarish
+[background-attachment]-fixed;rasmni bitta joyga qotirib quyish
+[text-decoration:overline;] text ustiga chizish
+[text-decoration:line-through;] text urtasidan ustiga chizish
+[text-decoration:underline;] text tagiga chiziq chizish
+[text-transform:capitalize;]har bir soz bosh harfini katta qilib yozadi
+[text-transform:lowercase;] har bir soz kichik harf bilan yoziladi
+[text-transform:uppercase;]har bir soz katta harf bilan yoziladi
+[line-height:50px;]-har bir qator balandligi
+[text-ident:100px;]-    textga abzas tashab ketish
+[word-spacing:10px;]    har bir soz orasiga joy tashlab ketish
+[letter-spacing:10px;]  har bir harf orasiga 10px ldan joy tashash
+[white-space:nowrap;] qancha text bolsa ham bitta qatorga yozadi
+[white-space:pre;]  pre tegi bilan bir xil
+[blur=xiralashtirish]
+[text-shadow:2px 3px 10px rang beramz;]  2px-x uqi boyica soya agar -2px berilsa pastga soya beradi,  3px- y uqidagi agar bunga -3px berilsa tepaga soya beradi,  10px-                                                                                                                     xiralashtirish,  quyilgan rangni soyaga sochvoradi
+[box-shadow:2px 3px 10px rang beramz;] bunda blogimizni atrofiga soya beradi
+[border:2px dashed] borderimizni devorini uziq chiziq qiberadi
+[border:2px solid;]borderimiz devori qora chiziq
+[box-sizing:border-box;] padding va border qalinligini  borderni ichidan 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+flexbox-flexible(moslashuvchan) box-container
+[display:flex] divni ichidagi  itemlarni bitta qatorga obkelish uchun
+[justify-content;]gorizontal joylashtiradi valuega qarab ishlaydi
+[align-items;] vertikal
+[justify-content:space-between;] elementlarimizzi orasini ochib quyadi
+[justify-content:space-around;] har bir elementimiz chap va ung tomonidagi joy bir xil boladi
+[justify-content:space-evenly;] har bir elementimiz orasini bir xil qiladi
+[justify-content:space-right;] barcha elementlaNI UNGAA LEFT BOLSA chapga qiladi
+[justify-content:space-center;] barcha elementla markazga
+[align-items:flex-start;] asl uz holatida
+[align-items:flex-end;]  y uqida pasga qibqoyadi
+[align-items:baseline;] boshlanishida turadi flex-start bilan teng
+[flex:direction:column;] kontentlarimizni yunalishini ifodalaydi bunda ustun shaklda qilingan [column-reverse] qatorni teskarisiga aylantiradi
+[flex:direction:row;] kontentlarimizni yunalishini ifodalaydi bunda satr shaklda qilingan
+[flex-wrap:wrap] containerdagi elementlarimiz ekran qisqarganda  elementlani pasga tushuradi
+[align-self:flex-start] bir dona item uchun uz holida turadi
+[align-self:flex-end] bir dona item uchun pastga tushadi
+[align-self:flex-center] bir dona item uchun markazga keladi
+[flex-basis:200px;] aynan bitta itemni ulchamini 200px qiladi width=200px; berganimiz bilan bir xil bolarkan
+[flex-grow:2;] boshqa itemlaga nisbatan 2 barobariga usadi
+[flex-shrink:2;] growni teskarisi bunda boshqalariga nisbatam 2 barobarga qisqaradi containerimizni kengligi qisqarganda bilinadi 
+[flex:100px 1 2;]100px=basis,1=grow, 2=shrink
+[row-gap:20px;] elementlar orasidagi qator orasini ochish uchun ishlaydi
+[column-gap:20px;] elementlar orasidagi ustun orasini ochib beradi
+[gap:100px 50px;] ham qator(row) 100px,  ustun(column) orasidan 50px ajratadi
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+[display:grid;]-containerga berilganda faqat uning itemlariga ishlaydi
+[display:inline-grid] containerning ichidagi barcha childlari uchun ishlaydid
+[grid-cell] har bir yasheyka
+[grid  column-line] yacheyka hosil qilingann ustunlar	
+[grid  track]  umumiy yacheyka qismlari bunda grid column track  qilsak ustun qismlari boladi
+[grid Area]  full grdi umumiy qismi
+[grid-template-columns:1fr 1fr 1fr;] necta usun bolisn i qancadan ulcamdan bolsin degani yani 3 ta ustun kengiligi 1fr dan
+[grid-template-columns:repeat(5,1fr)] 5 bu yerda neca marta qaytarilishligi 1fr esa qaytariluvci qiymatla neca pixeldan bolishligi
+[grid-template-columns:repeat(auto-fill,minmax(100px,1fr);] or  auto-fill ni urnifga auto-fit  qsegam boladi unda toliq ekranga moslashadi itemlarimiz ulcami
+[grid-template-rows:minmax(100px,300px);] rowlarni yani pastdan tepaga qisqaradi 300px dan 100 px gaca
+[grid-row-gap:10px] har bir qatorlani orasini ociladi
+[grid-column-gap:10px] har bir ustundegi orasini 10 px ga ocadi
+[grid-column:3/4;] ustunning 3 va 4 larini ifodalaydi bular itemlarga beriladi
+[grid-template-area:
+                    "header header header"
+                    " aside content content"     >>>> har bir itemlar toplamiga nom bervomiz va ularga itemlarni ichida grid-area:footer joylashtirishga yunalish  bersak boladi
+                     "footer footer footer"]
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[background-image:linear-gradient(red,yellow);]  orqa fonga ranglarni sochadi
+[linear-gradient(to right,red,yellow);] gradient berishda direction bilan berish yoli deg orqali burcagini bersagam boladi bunda ranglarni sochish yunalishini                                                                                                                                                       uzgartirse boladi
+[linear-gradient(to top right,red,yellow);]   qizil rang chap past burcekdan boshlanib uning ung tepa burcagiga qarab sargayib boradi
+[linear-gradient(to bottom left,red,yellow);] yuqoridagini teskarisi 
+[background-image:radial-gradient(circle,red,yellow);]  bunda aylana shaklida rangli maydon hosil qilinadi
+[background-image:radial-gradient(ellipse,red,yellow);] bunda ellips shakllida rangli maydon sochiladi
+[background-image:conic-gradient(red,yellow,green);]  aylana shklidagi rangli maydonda soat korinishida har bir soatga rang bergandek sochilaadi.border radiuslani berib quyilishi kerak
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
